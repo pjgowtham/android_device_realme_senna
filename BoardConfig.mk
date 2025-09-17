@@ -11,6 +11,7 @@ DEVICE_PATH := device/realme/senna
 
 # Display
 TARGET_SCREEN_DENSITY := 450
+TARGET_USES_PREBUILT_HWC := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

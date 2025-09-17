@@ -1356,6 +1356,21 @@ vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/CAMERA_ICP_480.elf
 
+# Display (HWC)
+odm/etc/vintf/manifest/manifest_oplus_cwb.xml
+odm/lib64/vendor.oplus.hardware.cwb@1.0.so
+vendor/bin/hw/vendor.qti.hardware.display.composer-service
+vendor/lib64/libcwb_qcom.so
+vendor/lib64/libqdutils.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmutils.so
+vendor/lib64/vendor.oplus.hardware.cwb@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+
+# Display (SDM)
+vendor/lib64/libmm-hdcpmgr.so
+vendor/lib64/libsdedrm.so
+
 # ESE
 odm/bin/hw/vendor.qti.esepowermanager@1.1-service
 odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc
@@ -1421,6 +1436,9 @@ odm/etc/irissoft_senna_ab575_04id_tm_nt37705_dsc_cmd_mode_panel.xml
 odm/etc/irissoft_senna_ab575_tm_nt37705_dsc_cmd_mode_panel.dat
 odm/etc/irissoft_senna_ab575_tm_nt37705_dsc_cmd_mode_panel.fw
 odm/etc/irissoft_senna_ab575_tm_nt37705_dsc_cmd_mode_panel.xml
+odm/firmware/iris5.fw
+odm/firmware/iris5_ccf1.fw
+odm/firmware/iris5_ccf2.fw
 
 # NFC
 odm/etc/nfc/libnfc-nci.conf_216AC:vendor/etc/libnfc-nci.conf
