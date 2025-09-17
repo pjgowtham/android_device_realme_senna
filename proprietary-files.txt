@@ -1476,6 +1476,7 @@ odm/etc/sensor/config/waipio_qrd_oplus_flight_detect.json
 odm/etc/sensor/config/waipio_qrd_palm.json
 odm/etc/sensor/config/waipio_qrd_pocket.json
 odm/etc/sensor/sensor_config.json
+odm/firmware/cs_press.bin
 
 # WiFi
 odm/etc/wifi/bin_version
