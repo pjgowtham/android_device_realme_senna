@@ -29,9 +29,6 @@ TARGET_SCREEN_WIDTH := 1240
 # Display
 TARGET_USES_PREBUILT_HWC := true
 
-# Lineage Health
-$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/oplus_chg/battery/mmi_charging_enable)
-
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
