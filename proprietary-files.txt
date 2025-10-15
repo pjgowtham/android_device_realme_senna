@@ -1438,7 +1438,6 @@ vendor/firmware/evautil64.mdt
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl.xml
-odm/lib64/vendor.oplus.hardware.touch-V1-ndk_platform.so
 odm/vendor/firmware/uff_jv.b00
 odm/vendor/firmware/uff_jv.b01
 odm/vendor/firmware/uff_jv.b02
@@ -1546,6 +1545,15 @@ odm/etc/sensor/config/waipio_qrd_palm.json
 odm/etc/sensor/config/waipio_qrd_pocket.json
 odm/etc/sensor/sensor_config.json
 odm/firmware/cs_press.bin
+
+# Touch
+odm/bin/touchDaemon
+odm/bin/hw/vendor-oplus-hardware-touch-V2-service
+odm/lib64/vendor.oplus.hardware.touch-V1-ndk_platform.so
+odm/lib64/vendor.oplus.hardware.touch-V2-ndk_platform.so
+odm/etc/vintf/manifest/manifest_touch_aidl.xml
+odm/etc/init/init.touchDaemon.rc
+odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
 
 # WiFi
 odm/etc/wifi/qca6490/bdwlan.elf
